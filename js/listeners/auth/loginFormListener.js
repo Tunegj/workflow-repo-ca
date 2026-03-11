@@ -3,6 +3,8 @@ import { displayMessage } from "../../ui/common/displayMessage.js";
 import { saveToken, saveUser } from "../../utils/storage.js";
 import { validateLoginForm } from "../../utils/validation.js";
 
+// Test comment to trigger eslint and prettier checks
+
 async function handleLoginSubmit(event) {
   event.preventDefault();
   const form = event.target;
